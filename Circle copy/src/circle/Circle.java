@@ -20,8 +20,8 @@ public class Circle {
         // TODO code application logic here
         Scanner rad = new Scanner(System.in);
         int radius = rad.nextInt();
-        double circumference = Math.round(2 * Math.PI * radius) ;
-        double area = Math.round(Math.PI * radius * radius);
+        double circumference = Math.round((2 * Math.PI * radius)*100.0)/100.0 ;
+        double area = Math.round((Math.PI * radius * radius)*100.0)/100.0;
         System.out.println("Circumference: " + circumference);
         System.out.println("Area: " + area);
         

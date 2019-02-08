@@ -9,6 +9,7 @@ import java.util.Scanner;
 /**
  *
  * @author rahulsrinivas
+ * version 1.0.1
  */
 public class StringReverse {
     
